@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cat <<JSON | curl -i "http://localhost:9000/2015-03-31/functions/function/invocations" -d @-
+{
+	"path": "/test",
+	"queryStringParameters": { "exampleQueryParam": "My Example Param" },
+	"headers": {
+		"auth-token": "EXAMPLE-TOKEN"
+	}
+}
+JSON

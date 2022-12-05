@@ -1,0 +1,23 @@
+{
+  "name": "aws-node-lambda-template",
+  "description": "A template repository for setting up a lambda function to be built as a docker image (via ECS) and saved to ECR",
+  "version": "1.0.0",
+  "main": "app/lambda.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danerio/aws-node-lambda-template.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda"
+  ],
+  "author": "danerio",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/danerio/aws-node-lambda-template/issues"
+  },
+  "homepage": "https://github.com/danerio/aws-node-lambda-template#readme"
+}

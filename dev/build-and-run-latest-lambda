@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build . -t lambda:latest
+docker run -p 9000:8080 --env AN_ENVIRONMENT_PARAM='Hello World! (as a passed in param)' lambda:latest

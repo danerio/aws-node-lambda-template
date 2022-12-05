@@ -1,0 +1,11 @@
+{
+	"AWS Account Id": "1234567891011",
+	"AWS Account Alias": "my-account-alias",
+	"Build Machine Id": "i-000000aaaa000a000",
+	"Build Machine SSH Finger Print": "",
+	"ECR": "1234567891011.dkr.ecr.ca-central-1.amazonaws.com/my-lambda-wrapper-name",
+	"repository_name": "my-lambda-wrapper-name",
+	"Lambda ARN": "arn:aws:lambda:ca-central-1:777479543955:function:my-lambda-wrapper-name",
+	"function_name": "my-lambda-wrapper-name",
+	"API Endpoint": "https://1a1a11aa11.execute-api.ca-central-1.amazonaws.com/v1"
+}

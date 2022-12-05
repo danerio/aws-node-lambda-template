@@ -1,0 +1,11 @@
+{
+	"AWS Account Id": "<account-id>",
+	"AWS Account Alias": "<unknown>",
+	"Build Machine Id": "i-<unknown>",
+	"Build Machine SSH Finger Print": "",
+	"ECR": "<account-id>.dkr.ecr.<region>.amazonaws.com/<repo-name>",
+	"repository_name": "<repo-name>",
+	"Lambda ARN": "arn:aws:lambda:<region>:<arn-id>:function:<function-name>",
+	"function_name": "<function-name>",
+	"API Endpoint": "https://<api-gateway-id>.execute-api.<region>.amazonaws.com/v1"
+}
